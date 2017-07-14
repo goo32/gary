@@ -104,6 +104,8 @@ TableRow = Struct.new(:byte, :bits)
 
 compressed = compress "abbcccc"
 p compressed
+p compressed.length
 
 decompressed = decompress compressed
 p decompressed
+p decompressed.length
