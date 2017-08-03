@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# Requires an implementation for BinPacker and BinUnpacker
+
 def compress(original)
   tree = build_tree(original)
   table = build_table(tree)
